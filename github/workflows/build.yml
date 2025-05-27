@@ -27,7 +27,7 @@ jobs:
           pyinstaller --onefile srivaaree_main.py --name SrivaareeCardMaster
 
       - name: Upload EXE artifact
-        uses: actions/upload-artifact@v2      # ← switched to v2
+        uses: actions/upload-artifact@v2
         with:
           name: SrivaareeCardMaster.exe
           path: dist/SrivaareeCardMaster.exe
